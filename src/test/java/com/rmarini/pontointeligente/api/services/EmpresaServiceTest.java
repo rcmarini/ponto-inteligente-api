@@ -22,7 +22,7 @@ import com.rmarini.pontointeligente.api.repositories.EmpresaRepository;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ActiveProfiles("test")
-public class EmpresaServiceImplTest {
+public class EmpresaServiceTest {
 
 	@MockBean
 	private EmpresaRepository empresaRepository;
