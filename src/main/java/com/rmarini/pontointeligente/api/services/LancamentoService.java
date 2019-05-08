@@ -24,7 +24,7 @@ public interface LancamentoService {
 	 * @param id
 	 * @return Optional<Lancamento>
 	 */
-	Optional<Lancamento> buscaPorId(Long id);
+	Optional<Lancamento> buscarPorId(Long id);
 
 	/**
 	 * Persiste um lancamento na base de dados.
