@@ -24,7 +24,6 @@ public class Empresa implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-//	@SequenceGenerator(name = "seq_empresa", sequenceName = "seq_empresa", initialValue = 0, allocationSize = 1)
 	private Long id;
 
 	@Column(name = "razao_social", nullable = false)
