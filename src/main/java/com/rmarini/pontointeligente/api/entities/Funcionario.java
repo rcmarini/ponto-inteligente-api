@@ -27,7 +27,7 @@ import com.rmarini.pontointeligente.api.enums.PerfilEnum;
 @Table(name = "funcionario")
 public class Funcionario implements Serializable {
 
-	private static final long serialVersionUID = -4551107983934314300L;
+	private static final long serialVersionUID = -6068174667569295747L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -140,6 +140,10 @@ public class Funcionario implements Serializable {
 
 	public Float getQtdHorasAlmoco() {
 		return qtdHorasAlmoco;
+	}
+	
+	public Optional<Float> getQtdHorasAlmocoOpt() {
+		return Optional.ofNullable(qtdHorasAlmoco);
 	}
 
 	public void setQtdHorasAlmoco(Float qtdHorasAlmoco) {
